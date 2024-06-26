@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto-Bold", sans-serif;
+}
+body {
+  /* background-color: rgb(142, 245, 231); */
+  background-image: linear-gradient(
+    to bottom,
+    rgb(174, 225, 243),
+    rgb(239, 198, 148)
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+h2 {
+  margin-top: 10px;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+input {
+  padding: 8px 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.countrydetails {
+  position: absolute;
+  top: 24%;
+  left: 39.5%;
+  font-size: 2rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 360px;
+  height: 530px;
+  background-color: white;
+  box-shadow: 5px 5px 29px blue;
+  box-shadow: reverse;
+}
+.container {
+  text-align: center;
+}
+select {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+  background: white;
+  color: black;
+  font-size: 16px;
+}
+
+.active {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  width: 100%;
+  line-height: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+  text-transform:capitalize;
+  font-weight: normal;
+  
+}
+.fa-solid {
+  position: relative;
+  font-size: 1.4rem;
+  color: rgb(48, 48, 61);
+  
+}
+.error{
+  margin-top: 50px;
+  font-size: 1.3rem;
+  color: maroon;
+}
+
+.fa-people-robbery{
+  color: blue;
+}
+.fa-head-side-cough{
+  color:rgb(62, 9, 141);
+}
+.fa-sack-dollar{
+  color: #00ff00;
+}
+@media only screen and(max-width:768px) {
+  .container {
+    text-align: center;
+  }
+}
